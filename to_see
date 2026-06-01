@@ -1,0 +1,17 @@
+deadlock
+  => set of processes are each waiting for resources held by others
+
+starvation
+  => a thread/process is continually denied the resources it needs
+
+
+
+- mutual exclusion
+- resource allocation
+- deadlocks
+- starvation
+- synchronization(mutexes, semaphores ,monitors)
+
+issues face os when :
+    - managing files, memory, locks, shared resources....etc
+
