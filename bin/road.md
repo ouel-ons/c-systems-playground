@@ -1,0 +1,51 @@
+- Compiler internals
+- Preprocessor
+- Compiler
+- Assembler
+- Linker
+- ELF executable format
+- ELF Header
+- Program Headers
+- Section Headers
+- .text, .data, .bss, .rodata
+- Symbols
+- Relocations
+- The Linux loader
+- execve
+- Dynamic linker
+- Shared libraries
+- Memory mapping
+- Processes
+- Process creation
+- Process Control Block (PCB)
+- PID
+- Threads vs processes
+- Virtual memory
+- Stack
+- Heap
+- Code segment
+- ASLR
+- Paging
+- CPU execution
+- Registers
+- Program Counter
+- Fetch–Decode–Execute cycle
+- Calling conventions
+- Assembly
+- Reading compiler output
+- Function calls
+- Stack frames
+- System calls
+- User mode vs kernel mode
+- read, write, open, fork, execve
+- Reverse engineering
+- objdump
+- readelf
+- nm
+- strings
+- gdb
+- Memory exploitation
+- Buffer overflows
+- Stack smashing
+- Return-oriented programming (ROP)
+- Modern mitigations
