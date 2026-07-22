@@ -13,7 +13,7 @@ int main()
     printf("%d\n", 0b11111111);  //251
 
     printf("--------------------\n");
-    unsigned char u = 255;
+    unsigned char u = 256;
     signed char j = -1;
     char k = -129;
     printf("%d\n", u);
