@@ -15,8 +15,13 @@ int main()
     printf("--------------------\n");
     unsigned char u = 256;
     signed char j = -1;
-    char k = -129;
+    char k = -128;
+    char p = 127;
+    char f = -256;
     printf("%d\n", u);
     printf("%d\n", j);
     printf("%d\n", k);
+    printf("%d\n", p);
+    printf("%d\n", f);
+
 }

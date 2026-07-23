@@ -6,11 +6,13 @@ int main()
 {
     int i = 256;
     unsigned char *p = (unsigned char *)&i;
-    printf("integer ----> (%d)\n", i);
-    printf("%p ---> %d \n", p, *p);
+    printf("integer ----> (%d)\n|_______\n", i);
+    printf("        |%p |---> %d \n", p, *p);
     // p++;
-    printf("%p ---> %d \n", ++p, *(++p));
-    printf("%p ---> \n", p);
+    printf("4 bytes |%p |---> %d \n", p++, *(++p));
+    printf("        |%p |---> %d\n", p, *p);
+    p++;
+    printf("        |%p |---> %d\n", p, *p);
 }
 
 
