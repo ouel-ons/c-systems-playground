@@ -13,4 +13,10 @@ int main()
     unsigned int i = 1;
     int k = -1;
     printf("%d  ---- %d     ==== %d\n", i, k, i > k); //0 whyyyy?
+
+    size_t o = 5;
+    if (o > -1)
+        printf("1\n");
+    else
+        printf("0\n");
 }
